@@ -18,9 +18,15 @@
     margin: auto;
 }
 
-h1, h2, h3 {
+h1 {
     color: darkslategrey;
     text-align: center;
+}
+
+h2, h3 {
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: underline;
 }
 
 img {
@@ -28,7 +34,15 @@ img {
     margin: auto;
 }
 
-.recipe-content {
-
+.recipe-card a {
+    background-color: orange;
+    color: #fff;
+    text-decoration: none; /*removes blue undeline*/
+    padding: 10px 12px;
+    /* display: block; thisss
+    max-width: 70px; thisss  to center the link on the line*/
+    display: table; /* or thissss to center the link on the line*/
+    margin: auto;
 }
+
 
